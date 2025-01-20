@@ -1,0 +1,7 @@
+C:\Nappali\c#\bevezetés\bevezetés\bin\Debug\bevezetés.exe.config
+C:\Nappali\c#\bevezetés\bevezetés\bin\Debug\bevezetés.exe
+C:\Nappali\c#\bevezetés\bevezetés\bin\Debug\bevezetés.pdb
+C:\Nappali\c#\bevezetés\bevezetés\obj\Debug\bevezetés.csproj.AssemblyReference.cache
+C:\Nappali\c#\bevezetés\bevezetés\obj\Debug\bevezetés.csproj.CoreCompileInputs.cache
+C:\Nappali\c#\bevezetés\bevezetés\obj\Debug\bevezetés.exe
+C:\Nappali\c#\bevezetés\bevezetés\obj\Debug\bevezetés.pdb
