@@ -1,0 +1,18 @@
+Autók listája:
+=====================
+
+ID: 1
+Márka: Ford
+Rendszam: AA56L
+Ár: 230000
+---------------------
+ID: 2
+Márka: Toyota
+Rendszam: AA69L
+Ár: 260000
+---------------------
+ID: 3
+Márka: Volvo
+Rendszam: AA10K
+Ár: 3000000
+---------------------
