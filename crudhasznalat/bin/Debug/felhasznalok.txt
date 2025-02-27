@@ -1,0 +1,11 @@
+Felhasználók listája:
+=====================
+
+ID: 1
+Név: Kiss Péter Jr.
+Email: peterjr@example.com
+---------------------
+ID: 3
+Név: Nagy Anna
+Email: anna@example.com
+---------------------
