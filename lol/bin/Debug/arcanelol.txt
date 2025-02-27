@@ -1,0 +1,28 @@
+Lol listája:
+=====================
+
+ID: 1
+Név: Viktor
+Származás: Zaun
+Szerep: Mid
+---------------------
+ID: 3
+Név: Jinx
+Származás: Zaun
+Szerep: Adc
+---------------------
+ID: 4
+Név: Ekko
+Származás: Zaun
+Szerep: Mid
+---------------------
+ID: 5
+Név: Jayce
+Származás: Piltover
+Szerep: Top
+---------------------
+ID: 6
+Név: Mel
+Származás: Noxus
+Szerep: Mid
+---------------------
