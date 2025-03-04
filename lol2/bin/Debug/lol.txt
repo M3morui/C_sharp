@@ -1,0 +1,24 @@
+1,Challenger,100,20,Zed,Mid,LordShadow
+2,Grandmaster,95,30,Lee Sin,Jungle,FistOfFury
+3,Master,120,40,Ashe,ADC,BowMaster99
+4,Diamond,150,60,Leona,Support,ShieldBearer
+5,Diamond,130,50,Yasuo,Top,WindStriker
+6,Platinum,180,80,Katarina,Mid,SwiftBlade
+7,Platinum,160,70,Warwick,Jungle,FearTheBeast
+8,Gold,200,100,Caitlyn,ADC,SharpShooter
+9,Gold,190,95,Thresh,Support,HookKing
+10,Silver,220,120,Garen,Top,DemacianMight
+11,Silver,210,110,Annie,Mid,Firestorm
+12,Bronze,250,150,Master Yi,Jungle,SwordDancer
+13,Bronze,230,140,Miss Fortune,ADC,BountyHunter
+14,Iron,270,200,Teemo,Top,ShroomMaster
+15,Iron,260,190,Blitzcrank,Support,HookMachine
+16,Challenger,110,25,Ahri,Mid,FoxSpirit
+17,Master,115,35,Ekko,Jungle,TimeWarper
+18,Diamond,140,55,Vayne,ADC,NightHunter
+19,Platinum,175,85,Nautilus,Support,DeepSeaTitan
+20,Gold,195,90,Darius,Top,NoxianMight
+21,Silver,215,115,Morgana,Mid,DarkEnchantress
+22,Bronze,240,135,Graves,Jungle,Shotgunner
+23,Iron,265,185,Draven,ADC,Showtime
+24,Iron,255,175,Soraka,Support,StarHealer
