@@ -1,0 +1,6 @@
+1,John_Doe,13A,18,matek
+2,Kis_Elemér,13A,19,angol
+3,Nagy_Elek,13A,17,német
+4,Jane_Doe,13A,16,matek
+5,Prob_Kinga,13A,18,angol
+6,Valamilyen_Máté,13A,19,matek
