@@ -1,0 +1,5 @@
+1,Tesco,350,200,Szeged
+2,Lidl,420,180,Debrecen
+3,Aldi,500,250,Budapest
+4,Spar,450,210,Pécs
+5,Metro,550,300,Miskolc
