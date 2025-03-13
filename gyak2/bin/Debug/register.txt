@@ -1,0 +1,6 @@
+John_Travolta;Johni4556;johny@gmail.com;jelszo1234;2000-10-10
+Emma_Watson;EmmaW23;emma.watson@email.com;passEmma789;2005-11-10
+Tom_Cruise;TomC2024;tomcruise@mail.com;TopGun123;1997-09-09
+Scarlett_Johansson;ScarJo99;scarlett.j@email.com;BlackWidow321;1993-05-03
+Leonardo_DiCaprio;LeoDicaprio77;leo.d@mail.com;TitanicForever;1987-04-07
+Natalie_Portman;NPortman88;natalie.p@email.com;StarWars456;1985-01-08
