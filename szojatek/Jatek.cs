@@ -9,6 +9,17 @@ namespace szojatek
 {
     internal class Jatek
     {
+        public string jatek_nev;
+        public int pont;
+        public int jatek;
+
+        public Jatek(string jatek_nev, int pont, int jatek)
+        {
+            this.jatek_nev = jatek_nev;
+            this.pont = pont;
+            this.jatek = jatek;
+        }
+
         static Random rnd = new Random();
 
         public static string connection = "server=localhost;database=szojatek;user=root;password=;";
@@ -47,7 +58,7 @@ namespace szojatek
                 return false;
             }
         }
-        public static void UjJatek()
+        public static (string, int, int) UjJatek()
         {
             string kivalasztott_szo = Ujszo();
             Console.WriteLine($"Kiválasztott szó: {kivalasztott_szo}");
@@ -103,26 +114,14 @@ namespace szojatek
                     }
                 }
             }
+            Console.WriteLine($"A játékos neve: {jatek_nev}");
             Console.WriteLine($"Az elért pontszámod: {pont}");
             Console.WriteLine($"{jatek} kört játszottál.");
 
-            JatekAdatFeltolt(jatek_nev, jatek, pont);
+            return (jatek_nev, pont, jatek);
         }
         
-        public static void JatekAdatFeltolt(string nev, int meccsek, int pontok)
-        {
-            string query = "INSERT INTO jatekos (nev, meccsek, pontok) VALUES (@nev, @meccsek, @pontok)";
-            using (MySqlConnection conn = new MySqlConnection(connection))
-            {
-                conn.Open();
-                using(MySqlCommand cmd = new MySqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@nev", nev);
-                    cmd.Parameters.AddWithValue("@meccsek", meccsek);
-                    cmd.Parameters.AddWithValue("@pontok", pontok);
-                    cmd.ExecuteNonQuery();
-                }
-            }
-        }
+        
+
     }
 }

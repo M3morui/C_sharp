@@ -10,8 +10,8 @@ namespace szojatek
     {
         static void Main(string[] args)
         {
-            Jatek.UjJatek();
-
+            Jatek jatek = Jatek.UjJatek("", 0, 0);
+            Create.JatekAdatFeltolt();
             Console.ReadKey();
         }
     }
