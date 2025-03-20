@@ -25,36 +25,40 @@ namespace Bank
             string tulajdonos_nev = "";
             int azonosito = 0;
             int pinkod = 0;
+            bool sikeres = false;
 
-            while (azonosito == 0 && pinkod == 0)
+            while (!sikeres)
             {
                 Console.WriteLine("Adja meg a nevét: ");
                 tulajdonos_nev = Console.ReadLine();
+                if (string.IsNullOrEmpty(tulajdonos_nev))
+                {
+                    Console.WriteLine("Nem adott meg nevet");
+                    continue;
+                }
                 Console.WriteLine("Adja meg az azonositó számát: ");
                 string bekertazonosito = Console.ReadLine();
+                if (bekertazonosito.Length != 8 || !int.TryParse(bekertazonosito, out azonosito))
+
+                {
+                    Console.WriteLine("8 karaktert adjon meg");
+                    continue;
+                }
+
                 Console.WriteLine("Adja meg a pinkodot:");
                 string bekertpinkod = Console.ReadLine();
-                if (bekertazonosito.Length != 8)
-                {
-                    Console.WriteLine(" 8 karaktert adjon meg");
-                }
-                else
-                {
-                    azonosito = Convert.ToInt32(bekertazonosito);
-                }
-                if (bekertpinkod.Length != 4)
+                if (bekertpinkod.Length != 4 || !int.TryParse(bekertpinkod, out pinkod))
+
                 {
                     Console.WriteLine("4 karaktert adjon meg");
+                    continue;
                 }
-                else
-                {
-                    pinkod = Convert.ToInt32(bekertpinkod);
 
-                }
+
+                sikeres = true;
 
 
             }
-
 
 
             return (tulajdonos_nev, azonosito, pinkod);
