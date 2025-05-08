@@ -1,6 +1,0 @@
-Kovács_Béla;Viharos;True;250000;1
-Nagy_Anna;Fekete Szél;False;0;5
-Tóth_Sándor;Csillagfény;True;150000;2
-Szabó_Márta;Villám;False;0;4
-Kiss_Gergő;Hópihe;False;0;6
-Farkas_Judit;Éjféli_Árny;True;100000;3
